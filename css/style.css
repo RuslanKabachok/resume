@@ -102,6 +102,7 @@ body {
 
 .my-work-experience-company {
   color: #fb6d3a;
+  text-decoration: none;
 }
 
 .my-work-experience-position {
@@ -206,7 +207,7 @@ body {
 }
 
 .contacts-section-link {
-  color: #565e6a;
+  color: #565b66;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -231,9 +232,14 @@ body {
   color: #ffffff;
 }
 
+.language {
+  font-weight: 600;
+}
+
 /*soft skills section*/
 
 .soft-skills-section {
+  margin-top: 35px;
   padding: 0 0 0 17px;
 }
 
