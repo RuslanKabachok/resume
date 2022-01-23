@@ -3,6 +3,11 @@ body {
   background-color: #f5f7fa;
 }
 
+::selection {
+  color: #fb6d3a;
+  background-color: black;
+}
+
 .main-container {
   display: flex;
   flex-direction: row-reverse;
