@@ -13,7 +13,9 @@ body {
   flex-direction: row-reverse;
   width: 1200px;
   margin: 40px auto;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 6px 14px 3px rgba(58, 58, 58, 0.7);
 }
 
 /* main container section */
@@ -93,7 +95,6 @@ body {
   line-height: 24px;
   color: #595959;
   margin-left: 5px;
-  text-decoration: none;
 }
 
 .my-projects-bracket {
@@ -108,7 +109,6 @@ body {
 
 .my-work-experience-company {
   color: #fb6d3a;
-  text-decoration: none;
 }
 
 .my-work-experience-position {
@@ -173,6 +173,7 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
+  margin-bottom: 30px;
 }
 
 .my-university-years-divider {
@@ -213,7 +214,7 @@ body {
 }
 
 .contacts-section-link {
-  color: #565b66;
+  color: #5f6470;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
